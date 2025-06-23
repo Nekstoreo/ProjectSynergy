@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Discusión General
+    url: https://github.com/nekstoreo/ProjectSynergy/discussions
+    about: Para preguntas generales, ideas o discusiones sobre el proyecto
+  - name: 📖 Documentación
+    url: https://github.com/nekstoreo/ProjectSynergy/blob/main/README.md
+    about: Consulta la documentación completa del proyecto
+  - name: 🚀 Demo en Vivo
+    url: (aun no disponible)
+    about: Prueba la aplicación en vivo (disponible cuando esté desplegada)
+  - name: 📧 Contacto Directo
+    url: mailto:nestor.gutierrez@example.com
+    about: Para consultas específicas o colaboraciones 

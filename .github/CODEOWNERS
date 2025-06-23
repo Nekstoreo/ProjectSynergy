@@ -1,0 +1,71 @@
+# 👥 Code Owners - ProjectSynergy
+# Este archivo define quién es responsable de revisar cambios en partes específicas del codebase.
+# Para más información: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# 🏠 Propietario Global
+# Néstor "Nekstoreo" Gutiérrez es el propietario principal de todo el proyecto
+* @nekstoreo
+
+# 📋 Documentación del Proyecto
+# Cambios en documentación principal requieren revisión cuidadosa
+README.md @nekstoreo
+PROJECT_CHARTER.md @nekstoreo
+TECHNICAL_STANDARDS.md @nekstoreo
+REPOSITORY_STRUCTURE.md @nekstoreo
+CONTRIBUTING.md @nekstoreo
+CHANGELOG.md @nekstoreo
+
+# 🏗️ Documentación de Arquitectura
+docs/architecture/ @nekstoreo
+docs/decisions/ @nekstoreo
+
+# 🔧 Configuración de CI/CD y DevOps
+.github/ @nekstoreo
+docker-compose.yml @nekstoreo
+infrastructure/ @nekstoreo
+
+# 💻 Backend (.NET)
+src/backend/ @nekstoreo
+src/backend/src/ProjectSynergy.Domain/ @nekstoreo
+src/backend/src/ProjectSynergy.Application/ @nekstoreo
+src/backend/src/ProjectSynergy.Infrastructure/ @nekstoreo
+src/backend/src/ProjectSynergy.API/ @nekstoreo
+
+# 🌐 Frontend (Next.js)
+src/frontend/ @nekstoreo
+src/frontend/src/app/ @nekstoreo
+src/frontend/src/components/ @nekstoreo
+
+# 🗄️ Scripts de Base de Datos y Migraciones
+src/backend/src/ProjectSynergy.Infrastructure/Migrations/ @nekstoreo
+tools/migration/ @nekstoreo
+
+# 🧪 Configuración de Testing
+tests/ @nekstoreo
+src/backend/tests/ @nekstoreo
+
+# 🚀 Configuración de Despliegue
+infrastructure/azure/ @nekstoreo
+infrastructure/docker/ @nekstoreo
+infrastructure/kubernetes/ @nekstoreo
+
+# 🔒 Archivos de Seguridad Críticos
+# Estos archivos requieren revisión especial por consideraciones de seguridad
+src/backend/src/ProjectSynergy.API/appsettings.json @nekstoreo
+src/backend/src/ProjectSynergy.Infrastructure/Security/ @nekstoreo
+src/frontend/next.config.js @nekstoreo
+
+# 📦 Gestión de Dependencias
+src/backend/*.csproj @nekstoreo
+src/backend/src/*/*.csproj @nekstoreo
+src/frontend/package.json @nekstoreo
+src/frontend/package-lock.json @nekstoreo
+
+# 🛠️ Herramientas de Desarrollo
+tools/ @nekstoreo
+.gitignore @nekstoreo
+.editorconfig @nekstoreo
+
+# 📊 Configuración de Análisis de Calidad
+.sonarcloud.properties @nekstoreo
+sonar-project.properties @nekstoreo
