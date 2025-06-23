@@ -2,10 +2,6 @@
 
 > Plataforma de gestión de soporte de nivel empresarial que muestra una arquitectura de software moderna y prácticas de desarrollo profesional
 
-[![Estado CI/CD](https://github.com/[tu-usuario]/ProjectSynergy/workflows/CI/badge.svg)](https://github.com/[tu-usuario]/ProjectSynergy/actions)
-[![Cobertura de Código](https://img.shields.io/badge/coverage-0%25-red)](https://github.com/[tu-usuario]/ProjectSynergy)
-[![Estado de Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=projectsynergy&metric=alert_status)](https://sonarcloud.io/dashboard?id=projectsynergy)
-
 ## 🎯 Estado del Proyecto
 🔄 **Fase 1: Planificación y Arquitectura** (En Progreso)
 
